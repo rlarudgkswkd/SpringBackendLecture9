@@ -7,6 +7,7 @@ public class Order {
     int price;
 
     Order(String customerName, String product, int quantity, int price) {
+        int grade = 10;
         this.customerName = customerName;
         this.product = product;
         this.quantity = quantity;
